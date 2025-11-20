@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <!-- Dolphin from behind/above view (for first-person perspective) -->
+  
+  <!-- Tail flukes (bottom, spread out) -->
+  <path d="M 30,100 Q 25,110 20,105 Q 30,95 35,90" fill="#4A90D9" stroke="#2E5C8A" stroke-width="2"/>
+  <path d="M 70,100 Q 75,110 80,105 Q 70,95 65,90" fill="#4A90D9" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Body (viewed from above/behind) -->
+  <ellipse cx="50" cy="60" rx="25" ry="40" fill="#5EA3E0" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Tail section -->
+  <path d="M 35,85 Q 50,95 65,85" fill="#4A90D9" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Side flippers (visible from behind) -->
+  <ellipse cx="25" cy="55" rx="8" ry="15" fill="#4A90D9" stroke="#2E5C8A" stroke-width="1.5" transform="rotate(-30 25 55)"/>
+  <ellipse cx="75" cy="55" rx="8" ry="15" fill="#4A90D9" stroke="#2E5C8A" stroke-width="1.5" transform="rotate(30 75 55)"/>
+  
+  <!-- Dorsal fin (top, prominent from behind) -->
+  <path d="M 45,35 Q 50,20 55,35 Z" fill="#4A90D9" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Head section (top, smaller) -->
+  <ellipse cx="50" cy="30" rx="18" ry="22" fill="#5EA3E0" stroke="#2E5C8A" stroke-width="2"/>
+  
+  <!-- Lighter underbelly hint (center stripe) -->
+  <ellipse cx="50" cy="65" rx="15" ry="30" fill="#87CEEB" opacity="0.4"/>
+  
+  <!-- Subtle shading for depth -->
+  <ellipse cx="50" cy="50" rx="20" ry="25" fill="#4A90D9" opacity="0.2"/>
+  
+  <!-- Rostrum/snout (visible at top) -->
+  <ellipse cx="50" cy="20" rx="8" ry="10" fill="#5EA3E0" stroke="#2E5C8A" stroke-width="1.5"/>
+  
+  <!-- Blowhole -->
+  <ellipse cx="50" cy="28" rx="3" ry="4" fill="#2E5C8A"/>
+  
+  <!-- Detail lines for realism -->
+  <path d="M 35,45 Q 50,48 65,45" stroke="#2E5C8A" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 35,60 Q 50,63 65,60" stroke="#2E5C8A" stroke-width="0.5" fill="none" opacity="0.5"/>
+</svg>
+

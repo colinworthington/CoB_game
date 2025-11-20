@@ -124,3 +124,45 @@ button:hover {
 .hidden {
     display: none !important;
 }
+
+/* View Toggle Button */
+#view-toggle-btn {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    padding: 8px 20px;
+    background-color: rgba(255, 215, 0, 0.9);
+    color: #001f3f;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    pointer-events: auto;
+    z-index: 10;
+}
+
+#view-toggle-btn:hover {
+    background-color: var(--accent-color);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+#view-toggle-btn.active {
+    background-color: #00ff88;
+    border-color: #00ff88;
+}
+
+/* First-Person Mode Visual Effects */
+.first-person-vignette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at center, transparent 50%, rgba(0, 31, 63, 0.5) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.first-person-vignette.active {
+    opacity: 1;
+}
